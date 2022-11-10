@@ -1,0 +1,123 @@
+/* основной цвет текста  #212121 */
+/* цвет фона белый  #F5F5F5 */
+/* цвет фона футера #2F303A */
+/* голубой цвет акцента #2196F3 */
+/* вторичный цвет текста #757575 */
+/* цвет адреса и кнопки #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+:root{
+    --primary-text-color:#757575 ;
+    --title-text-color:#212121 ;
+    --accent-color:#2196F3 ;
+    --footer-bg-color:#2F303A;
+    --white-bg-color:#FFFFFF;
+    --black-color:#000000;
+    --page-bg-color:#F5F5F5;
+}
+/*page*/
+.page{
+    background-color:var(--page-bg-color);
+    color: #212121;
+}
+
+/*-----nav-----*/
+.logo{
+color: var(--black-color);
+}
+.logo-pic{
+    color: #2196F3;
+}
+.site-nav{
+    list-style: none;
+}
+.site-nav .link{
+    color:var(--title-text-color);
+}
+.site-nav .link:hover{
+   color: var(--accent-color);
+}
+.adres-list{
+    list-style: none;
+}
+.contact{
+    color: var(--primary-text-color);
+}
+.contact:hover{
+    color: var(--accent-color);
+}
+/* Шапка сторінки */
+.hero{
+    
+    background: var(--footer-bg-color);
+}
+.hero-title{
+    width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+    color: var(--white-bg-color);
+}
+.hero-button{
+    background-color:var(--accent-color);
+}
+/* Section */
+.section-title{
+    color:var(--title-text-color);
+}
+
+/*Наші принципи */
+.feature-list .title{
+    color: var(--title-text-color);
+}
+.feature-list{
+    list-style: none;
+}
+/* Чим ми займаємося */
+title{
+    color: var(--title-text-color);
+}
+.title-list{
+    color: var(--primary-text-color);
+}
+.work-list{
+    list-style: none;
+}
+
+/* Наша команда */
+.author{
+    list-style: none;
+}
+
+/* Футер */
+.footer{
+    color: var(--white-bg-color);
+    background-color: var(--footer-bg-color);
+}
+.footer .list{
+    list-style: none;
+}
+.logo-footer{
+    color:var(--white-bg-color);
+}
+.footer-pic{
+    color: var(--accent-color);
+}
+.contact-footer{
+    color: var(--primary-text-color);
+}
+.adres-link{
+    color: var(--white-bg-color);
+}
+/* button */
+.button{
+    color: var(--title-text-color);
+    background-color:var(--white-bg-color);
+}
+
+.hero-button{
+color: var(--page-bg-color);
+background-color: var(--accent-color);
+}
+.button menu button{
+    color: var(--title-text-color);
+}
