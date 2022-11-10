@@ -13,6 +13,8 @@
     --white-bg-color:#FFFFFF;
     --black-color:#000000;
     --page-bg-color:#F5F5F5;
+    --img-bg-color:#EEEEEE;
+    --second-bg-color:#F5F4FA;
 }
 /*page*/
 .page{
@@ -21,6 +23,9 @@
 }
 
 /*-----nav-----*/
+.page-header{
+    background-color: #ECECEC;
+}
 .logo{
 color: var(--black-color);
 }
@@ -43,6 +48,9 @@ color: var(--black-color);
     color: var(--primary-text-color);
 }
 .contact:hover{
+    color: var(--accent-color);
+}
+.contact:focus{
     color: var(--accent-color);
 }
 /* Шапка сторінки */
@@ -87,6 +95,9 @@ title{
 .author{
     list-style: none;
 }
+.team{
+    background-color:var(--second-bg-color)
+}
 
 /* Футер */
 .footer{
@@ -118,6 +129,25 @@ title{
 color: var(--page-bg-color);
 background-color: var(--accent-color);
 }
-.button menu button{
+.button-menu button{
     color: var(--title-text-color);
+}
+.button-menu{
+    list-style: none;
+}
+.button:hover{
+    background-color:var(--accent-color);
+    color: var(--white-bg-color);
+}
+.button:focus{
+    background-color:var(--accent-color);
+    color: var(--white-bg-color);
+}
+
+/* Портфоліо */
+.features{
+    list-style: none;
+}
+.features-list{
+    background-color: var(--img-bg-color);
 }
