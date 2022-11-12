@@ -32,6 +32,7 @@ background-color:var(--white-bg-color);
 }
 .logo{
     font-family: Raleway, sans-serif;
+    font-style: normal;
 color: var(--black-color);
 text-decoration: none;
 font-weight: 700;
@@ -224,10 +225,7 @@ background-color: var(--accent-color);
 border-radius: 4px;
     list-style: none;
 }
-.button:hover{
-    background-color:var(--accent-color);
-    color: var(--white-bg-color);
-}
+.button:hover,
 .button:focus{
     background-color:var(--accent-color);
     color: var(--white-bg-color);
