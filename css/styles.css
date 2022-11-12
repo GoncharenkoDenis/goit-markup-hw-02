@@ -38,6 +38,7 @@ text-decoration: none;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
+letter-spacing: 0.03em;
 }
 .logo-pic{
     color: var(--accent-color);
@@ -187,9 +188,6 @@ line-height: 1.19;
     color: var(--white-bg-color);
     line-height: 1.71;
     font-style: normal;
-}
-.adres{
- 
 }
 /* button */
 .button{
