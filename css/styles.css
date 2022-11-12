@@ -143,21 +143,17 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
 }
 .title .title-list{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
 }
 .team .title-list{
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
-    
 }
 /* Футер */
 .footer{
@@ -209,7 +205,7 @@ text-align: center;
 .hero-button{
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
@@ -237,15 +233,13 @@ border-radius: 4px;
 .features-list{
     background-color: var(--white-bg-color);
 }
-.features-title{
+.features-list .features-title{
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 }
-.features-title-list{
-    font-weight: normal;
-    font-size: 1.87;
-    line-height: 30px;
-    letter-spacing: 0.03em;
+.features-list .features-title-list{
+    font-size: 16px;
+    line-height: 1.87;
 }
